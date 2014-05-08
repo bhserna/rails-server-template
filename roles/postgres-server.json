@@ -5,9 +5,13 @@
 
    },
    "json_class": "Chef::Role",
+   "postgresql" : {
+     "password" : {
+       "postgres" : "$1$HguIBYO6$7Dsot1BKNeFK74NVrvRGI0"
+     }
+   },
    "run_list": [
-      "postgresql::server",
-      "monit_configs-tlq::postgres"
+      "postgresql::server"
    ],
    "chef_type": "role"
 }
