@@ -39,7 +39,7 @@ the postgres user (you can use `openssl passwd -1
 run
 
 ```
-bundle exec knife solo prepare root@yourserverip
+bundle exec knife solo cook root@yourserverip
 ```
 
 ## Common problems :cry:
@@ -57,3 +57,8 @@ and then manually install postgress
 ```
 apt-get install postresql-9.1
 ```
+
+## More info
+
+If you need more info about provisioning with chef, you can read
+[Deploying Rails Applications](https://leanpub.com/deploying_rails_applications), by Ben Dixon.
